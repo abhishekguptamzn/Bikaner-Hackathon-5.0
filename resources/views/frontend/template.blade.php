@@ -44,7 +44,7 @@
               <a class="nav-link" href="{{route('contact')}}">Contact</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link newplace" href="{{route('newplace')}}">Add Place</a>
+              <a style="color: #f46b45 !important;" class="nav-link newplace" href="{{route('newplace')}}">Add Place</a>
             </li>
            
           </ul>
