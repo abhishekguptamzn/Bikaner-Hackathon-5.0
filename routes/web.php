@@ -22,7 +22,7 @@ Route::get('/listallplaces', 'PagesController@listallplaces')->name('listallplac
 Route::get('/seeplace/{place}', 'PlaceController@seeplace')->name('seeplace');
 
 Route::post('/save', 'PlaceController@store')->name('savenewplace');
-Route::post('/contactform', 'HomeController@contactform')->name('contactform');
+Route::post('/contactform', 'PagesController@contactform')->name('contactform');
 
 Auth::routes();
 
