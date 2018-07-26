@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+*{
+font-family: 'Lato', sans-serif;
+
+}
+body,html,p,label,input,span,h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+
+}
+nav.navbar{
+	box-shadow: 1px 1px 9px 0px #00000047;
+	min-height: 80px;
+	background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav.navbar a{
+	color: #fff !important;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 30px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+.textcap{
+	text-transform: capitalize;
+}
+.newplace{
+	background-color:#fff; 
+	color: #f46c45 !important; 
+	border-radius: 20px;
+	padding: 8px 22px !important; 
+	box-shadow: 1px 1px 9px 0px #00000047;
+}
+.col1{
+	color: #f36c45;
+}
+.bg1{
+	background-color: #f36c45;
+}
+.col2{
+	color: #eea849;
+}
+.bg2{
+	background-color: #eea849;
+}
+.bgfound{
+	background-image: url('../../images/bg1.jpg');
+}
+.form-group.has-error span{color: red;}
+
+.form-group.has-error input,.form-group.has-error select{border-color: red;}
+
+.font-10{
+	font-size: 10px !important;
+}
+.font-12{
+	font-size: 12px !important;
+}
+.font-15{
+	font-size: 15px !important;
+}
+.font-16{
+	font-size: 16px !important;
+}
+.font-18{
+	font-size: 18px !important;
+}
+.font-20{
+	font-size: 20px !important;
+}
+.font-22{
+	font-size: 22px !important;
+}
+.font-24{
+	font-size: 24px !important;
+}
+.font-26{
+	font-size: 26px !important;
+}
+
+.font-28{
+	font-size: 28px !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.limitcss{
+	 overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+     -webkit-line-clamp: 4;
+    line-height: 1.2;
+    max-height: 80px;
+}
+
+@media (min-width: 992px)
+{
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+}
+}
